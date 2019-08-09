@@ -1,0 +1,105 @@
+html {
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px
+
+}
+body{
+    margin: none;
+    padding: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px
+
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #ddd;
+    border: 1px solid gray
+}
+header{
+    padding: 20px;
+     color: #eee
+}
+header{
+    background-color: gray
+}
+footer{
+    background-color: gray
+}
+.side{
+    float: left;
+    width: 150px
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+     list-style: none
+
+}
+.side >ul > li >a{
+    display: block;
+        padding-left: none;
+        padding-right: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+     text-align: center;
+     text-decoration: none;
+     color: #333;
+     border-bottom: 1px solid gray
+}
+.side >ul > li >a:hover{
+    color: #eee;
+    background-color: gray
+}
+.main{
+    margin-left: 150px;
+    background-color: #eee;
+    padding: 20px
+}
+.main >h1{
+    margin-top: 0px;
+}
+.main >p{
+    margin: none;
+    margin-bottom: 10px
+}
+footer{
+    color: #eee;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    clear: both;
+}
+footer> .love{
+    color: pink
+}
+.side> div{
+    padding-left: none
+}
+@media only screen and (max-width: 768px) {
+   .container{
+       width: 100%
+   }
+   header{
+       text-align: center
+   }
+   .side{
+       float: none;
+       width: 100%;
+       text-align: center
+   }
+   .side >ul >li{
+       display: inline-block
+   }
+   .side >ul >li >a{
+       border-bottom: 0px;
+       padding: 10px
+   }
+   .main{
+       margin-left: 0
+   }
+   .main > p{
+       text-align: justify
+   }
+  }

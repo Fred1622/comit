@@ -1,0 +1,20 @@
+link:link {color: red}
+
+link:hover{color: green}
+
+link:visited{color:purple}
+
+header h1{color: lime} 
+
+
+header h1::first-letter{color: black}
+
+h1::first-letter{color: black}
+
+h1{color: coral}
+
+p {color:black}
+foot p +p{ color:darkgoldenrod}
+
+ol li {color: deeppink}
+ ol :first-child{color: black}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Create user</title> </head>
+    <body>
+        <h1>Create user</h1>
+        <hr>
+            <label>user</label>
+            <textarea name="about" placeholder="name" cols="10" rows="3" id="text"> </textarea>
+        <hr>
+        <form>
+            <label>Select multiple</label>      
+            <select name="Movies" multiple="multiple" size="13"id="movies">
+                <option value="batman_v_superman">Batman v Superman</option>
+                <option value="captain_america">Captain America</option>
+                <option value="doctor_stange">Doctor Stange</option>
+                <option value="suicide_squad">Suicide Squad</option>
+                <option value="x_man">X-man Apocalypse</option>
+                <option value="gotg_v2">Guardians of the Galaxy Vol 2</option>
+                <option value="justice_league">Justice League</option>
+                <option value="logan">Logan</option>
+                <option value="homecoming">Spider-man Homecoming</option>l</option>
+                <option value="wonder+woman" selected>Wonder Woman</option>
+                <option value="thor_ragnarok">Thor Ragnarok</option>
+                <option value="black_panther">Black Panther</option>
+                <option value="deadpool">Deadpool</option>
+
+            </select>
+        </form>    
+        <hr>
+        <label>user</label>
+            <textarea name="about" placeholder="Write your Bio" cols="20" rows="12" id="bio"> </textarea>
+    
+        <hr>
+        <form action="upload.php" method="POST" enctype="multipart/form-data" id="file">
+            <label>Upload Avatar</label>
+            
+            <input type="file" name="filename" />
+        </form>
+        <hr>
+        <form id="new_user">
+
+                <label>New user</label>
+                <button value="create" name="create-user"> Add new user</button>
+                
+            
+        </form>
+    </body>
+</html>

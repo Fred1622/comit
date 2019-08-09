@@ -1,0 +1,12 @@
+body{font-family: Arial, Helvetica, sans-serif}
+
+#container    {background: gray; margin: auto; width: 600px }
+
+#container a {display: block; margin: center; text-align: center; text-decoration: none; color: white; border-bottom: 1px solid black; padding: 10px; text-transform: uppercase}
+a:hover {
+    color: gray; background: #eee
+  }
+
+
+
+    

@@ -1,0 +1,14 @@
+
+ h1, p{
+    color:green} 
+
+.red {
+    color:red}
+
+    #login  {
+    color: pink}
+
+.submit {
+    color: red}
+
+::placeholder { color: gray}

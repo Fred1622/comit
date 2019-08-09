@@ -1,0 +1,17 @@
+* {
+    border: 1px solid
+  }
+  html{ border: purple solid 1px}
+  
+  body{border: solid red}
+  
+  div{border: solid blue}
+  
+  p { border: 2px solid green}
+  
+  span{border: 3px  brown dotted}
+  
+  link{border: 2px coral dashed}
+  
+  .radius{ border: 2px solid orange}
+  .radius{ border-radius: 20px }

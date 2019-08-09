@@ -1,0 +1,7 @@
+img {
+    vertical-align: super;
+  }
+
+ button img {
+    vertical-align: top;
+  }

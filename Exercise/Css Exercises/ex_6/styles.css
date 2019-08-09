@@ -1,0 +1,32 @@
+body{font-family: Arial}
+body{font-size: 16px}
+body{color:black}
+
+h1{font-size: 2em}
+h1{color: #ddd}
+h1{text-shadow: black 1px 2px 3px}
+
+h2{font-size: 1.5em}
+h2{color: #ddd}
+h2{text-shadow: black 1px 2px 3px}
+
+p {line-height: 1.4em}
+
+.main{text-align: justify}
+
+.bold{color: coral}
+
+#quote {letter-spacing: 2px}    
+#quote{color: darkcyan}
+#quote{font-family: italic}     
+
+.last{text-align: right}
+.last{color: red}
+
+.wrong{text-decoration-line: line-through}
+.wrong{font-size: 1.2em }
+.wrong{font-weight: 700 }
+
+.google {font-family: 'Merriweather', serif;}
+.google{font-size: 1.6em}
+.google{color: purple}

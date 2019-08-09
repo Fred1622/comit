@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+        <head><title>test</title></head>
+        <body>
+                <h1>Create User</h1>
+                <hr>
+                <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+                    <fieldset>
+                        <label for="username">username:</label>
+                        <input type="text" name="username" size="30" maxlength="12" id="username" required pattern="[a-zA-Z]+$" title="Input only letters">
+                    
+                        <legend>User form></form></legend>
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" size="30" maxlength="8" id="password" required pattern="\d+" title="Only numbers">
+                            <label for="birthday">birthday:</label>
+                            <input type="date" name="birthday" id="birthday" />
+                            
+                            <label for="date">Date:</label>
+                            <input id="date" type="date" value="">
+                            
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" placeholder="E-mail" required/>
+                            
+                            <label for="site">Your website </label>
+                            <input type="url" name="url" id="site" />
+                            
+                            <button value="create" name="submit"> Submit</button>
+                            
+                    
+                        </form> 
+        
+        </body>
+</html>

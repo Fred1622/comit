@@ -1,0 +1,31 @@
+body{margin: 0} 
+body{padding: 0}    
+body{background-color: white}
+body{font-family: Arial, Helvetica, sans-serif 16px}
+header{background-color: black}
+header{font: white}
+header{padding: 20px 10px 20px 10px}
+
+header h2{margin: 0px}
+header h2 {color:white}
+header h2{text-shadow:  1px 2px 3px #666}
+.main{ padding: 20px}
+.main p{text-justify: aligned}
+.overflow {size: 50% } 
+
+footer{background-color: black}
+footer{padding: 10px}
+footer{text-align: center}
+
+footer a {color: white} 
+footer a {text-decoration-line: none}
+footer a {font-size: 1.2em}
+footer a {border-right: 1px white solid}
+footer a {margin: 0px 10px 0px 0px}
+footer a {padding: 0px 10px 0px 0px}
+footer a:hover {
+    color: gray;  text-decoration: underline; font-weight: bold
+  }
+footer a :last-child{ border-right: none }
+
+.news {margin-top: 20px ; box-shadow:  0px 5px 10px 5px ; padding: 5px 10px 5px 10px}
