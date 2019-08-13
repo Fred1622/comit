@@ -1,7 +1,11 @@
 let firstname = 'Thomas';
-let space = ' '
-let lastname = 'Cabral';
-let message = 'Welcome';
-let message1 = ' to learning JavaScript with friends!!'
 
-console.log()
+let lastname = 'Cabral';
+
+let space = ' ';
+
+let welcome = 'Welcome';
+
+let greeting = 'to learning JavaScript with friends!!'
+
+console.log(welcome + space + firstname + space + greeting )
